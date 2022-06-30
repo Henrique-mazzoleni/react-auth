@@ -1,5 +1,13 @@
+import PasswordForm from '../components/PasswordForm';
+import styles from './Profile.module.css';
+
 const Profile = () => {
-    return <h1>This is your Profile</h1>
+    return (
+        <div className={styles.profile}>
+            <h1>Your User Profile</h1>
+            <PasswordForm />
+        </div>
+    )
 };
 
 export default Profile;
